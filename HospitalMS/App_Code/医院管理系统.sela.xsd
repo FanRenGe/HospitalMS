@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="sela" targetNamespace="http://www.tempuri.org/sela.xsd" xmlns:mstns="http://www.tempuri.org/sela.xsd" xmlns="http://www.tempuri.org/sela.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="sela" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="useid" type="xs:string" />
+              <xs:element name="usename" type="xs:string" minOccurs="0" />
+              <xs:element name="pwd" type="xs:string" minOccurs="0" />
+              <xs:element name="sex" type="xs:string" minOccurs="0" />
+              <xs:element name="addr" type="xs:string" minOccurs="0" />
+              <xs:element name="phone" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table" />
+      <xs:field xpath="mstns:useid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

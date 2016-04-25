@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsss" targetNamespace="http://www.tempuri.org/dsss.xsd" xmlns:mstns="http://www.tempuri.org/dsss.xsd" xmlns="http://www.tempuri.org/dsss.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsss" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ids" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long" />
+              <xs:element name="myimname" type="xs:string" minOccurs="0" />
+              <xs:element name="myimdata" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="myimtype" type="xs:string" minOccurs="0" />
+              <xs:element name="姓名" type="xs:string" minOccurs="0" />
+              <xs:element name="性别" type="xs:string" minOccurs="0" />
+              <xs:element name="出生年月" type="xs:string" minOccurs="0" />
+              <xs:element name="籍贯" type="xs:string" minOccurs="0" />
+              <xs:element name="种族" type="xs:string" minOccurs="0" />
+              <xs:element name="政治面貌" type="xs:string" minOccurs="0" />
+              <xs:element name="学历" type="xs:string" minOccurs="0" />
+              <xs:element name="职务" type="xs:string" minOccurs="0" />
+              <xs:element name="电话" type="xs:string" minOccurs="0" />
+              <xs:element name="邮箱" type="xs:string" minOccurs="0" />
+              <xs:element name="家庭地址" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
