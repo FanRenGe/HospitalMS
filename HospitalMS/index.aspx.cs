@@ -62,7 +62,8 @@ namespace 医院管理系统
                 Session["usename"] = Tname.Text; //传递用户名和密码值
                 Session["pwds"] = Tpwd.Text;
                 Session["useright"] = DDright.Text;
-                Response.Redirect("webmenu.aspx");
+                //Response.Redirect("webmenu.aspx");
+                Response.Redirect("index.html");
 			}
 		}
 
@@ -73,5 +74,10 @@ namespace 医院管理系统
 		  Tname.Text="";
 			Tpwd.Text ="";
 		}
+
+	    protected void lbtnAddUser_OnClick(object sender, EventArgs e)
+	    {
+            Response.Redirect("register.aspx");
+	    }
 	}
 }

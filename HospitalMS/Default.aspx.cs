@@ -9,6 +9,12 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Session["usename"] != null)
+        {
+        }
+        else
+        {
+            Response.Write("<script>parent.window.location.href='../index.aspx'</script>");
+        }
     }
 }

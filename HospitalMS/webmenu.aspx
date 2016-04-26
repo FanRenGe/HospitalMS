@@ -21,7 +21,7 @@
 		<div class="headR">
 			<p class="p1">
 				ª∂”≠£¨
-				<?php echo cookie('name')?>
+				<asp:Label runat="server" ID="lblUserID"></asp:Label>
 			</p>
 			<p class="p2">
 				<a href="#" class="resetPWD">÷ÿ÷√√‹¬Î</a>&nbsp;&nbsp;<a

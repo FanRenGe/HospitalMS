@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "医院管理系统", "http://localhost:53138", "{AD173F74-7B93-448F-95C3-B06BD6633B82}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HospitalMS", "http://localhost:13839", "{1C89378C-BEBB-4F84-9C6A-694ADA728CA4}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_53138"
-		Debug.AspNetCompiler.PhysicalPath = "D:\Project\医院管理系统\医院管理系统\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53138\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_13839"
+		Debug.AspNetCompiler.PhysicalPath = "..\HospitalMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_13839\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_53138"
-		Release.AspNetCompiler.PhysicalPath = "D:\Project\医院管理系统\医院管理系统\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53138\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_13839"
+		Release.AspNetCompiler.PhysicalPath = "..\HospitalMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_13839\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "D:\Project\医院管理系统\医院管理系统\"
+		SlnRelativePath = "..\HospitalMS\"
 	EndProjectSection
 EndProject
 Global
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AD173F74-7B93-448F-95C3-B06BD6633B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD173F74-7B93-448F-95C3-B06BD6633B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C89378C-BEBB-4F84-9C6A-694ADA728CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C89378C-BEBB-4F84-9C6A-694ADA728CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
