@@ -9,7 +9,9 @@ public partial class top : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if(Session["usename"] == null)
+             Response.Write("<script>parent.window.location.href='index.aspx'</script>");
+       
     }
     protected void LBQuit_Click(object sender, EventArgs e)
     {

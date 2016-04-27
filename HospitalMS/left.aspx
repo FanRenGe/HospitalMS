@@ -45,7 +45,7 @@
                     </dt>
                     <dd>
                         <img class="coin11" src="./img/coin111.png" /><img class="coin22" src="./img/coin222.png" />
-                        <a class="cks" href="./user.html" target="main">信息修改</a>
+                        <a class="cks" href="./useredit.aspx" target="main">信息修改</a>
                         <img class="icon5" src="./img/coin21.png" />
                     </dd>
                 </dl>
@@ -56,7 +56,7 @@
                     </dt>
                     <dd>
                         <img class="coin11" src="./img/coin111.png" /><img class="coin22"
-                            src="./img/coin222.png" /><a class="cks" href="./user.html"
+                            src="./img/coin222.png" /><a class="cks" href="./gonggaochakan.aspx"
                                 target="main">查看公告</a><img class="icon5" src="./img/coin21.png" />
                     </dd>
                 </dl>
@@ -99,16 +99,16 @@
                 <dl class="system_log">
                     <dt>
                         <img class="icon1" src="./img/coin03.png" /><img class="icon2" src="./img/coin04.png" />
-                        信息管理<img class="icon3" src="./img/coin19.png" /><img class="icon4" src="./img/coin20.png" />
+                        资讯管理<img class="icon3" src="./img/coin19.png" /><img class="icon4" src="./img/coin20.png" />
                     </dt>
                     <dd>
                         <img class="coin11" src="./img/coin111.png" /><img class="coin22" src="./img/coin222.png" />
-                        <a class="cks" href="./user.html" target="main">添加公告</a>
+                        <a class="cks" href="./gonggaoadd.aspx" target="main">添加公告</a>
                         <img class="icon5" src="./img/coin21.png" />
                     </dd>
                     <dd>
                         <img class="coin11" src="./img/coin111.png" /><img class="coin22" src="./img/coin222.png" />
-                        <a class="cks" href="./user.html" target="main">公告列表</a>
+                        <a class="cks" href="./gonggao.aspx" target="main">公告列表</a>
                         <img class="icon5" src="./img/coin21.png" />
                     </dd>
                 </dl>

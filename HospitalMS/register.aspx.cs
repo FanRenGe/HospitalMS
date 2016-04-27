@@ -52,14 +52,6 @@ public partial class register : System.Web.UI.Page
         SqlCommand cmd = new SqlCommand("[zhuce]", conn);
         cmd.CommandType = System.Data.CommandType.StoredProcedure;
         if (conn.State == 0) conn.Open();
-        //cmd.Parameters["@useid"].Value = txtUserID.Text.Trim();
-        //cmd.Parameters["@usename"].Value = txtUserName.Text.Trim();
-        //cmd.Parameters["@pwd"].Value = txtPwd.Text.Trim();
-        //cmd.Parameters["@sex"].Value = ddlSex.Text;
-        //cmd.Parameters["@addr"].Value = txtAddr.Text.Trim();
-        //cmd.Parameters["@phone"].Value = txtPhone.Text.Trim();
-        //cmd.Parameters["@rights"].Value = "挂号";
-
 
         cmd.Parameters.Add(new System.Data.SqlClient.SqlParameter("@useid",txtUserID.Text.Trim()));
         cmd.Parameters.Add(new System.Data.SqlClient.SqlParameter("@usename", txtUserName.Text.Trim()));
